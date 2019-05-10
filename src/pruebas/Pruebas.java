@@ -25,6 +25,7 @@ public class Pruebas extends Application {
         
         stage.setScene(scene);
         stage.show();
+        //haciendo el primer coming
     }
 
     /**
