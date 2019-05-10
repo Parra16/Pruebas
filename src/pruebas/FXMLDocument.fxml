@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="fondo" stylesheets="@newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebas.FXMLDocumentController">
+   <children>
+      <Button fx:id="escribir" layoutX="159.0" layoutY="92.0" mnemonicParsing="false" onAction="#escribe" styleClass="boton" text="Hola" />
+      <Button fx:id="borrar" layoutX="451.0" layoutY="92.0" mnemonicParsing="false" onAction="#borra" styleClass="boton" text="Borrar hola" />
+      <Label fx:id="saludo" layoutX="179.0" layoutY="172.0" prefHeight="94.0" prefWidth="332.0" text="Hola perro">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
